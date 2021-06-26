@@ -1,50 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Font link  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Font awesome kit  -->
+  <script src="https://kit.fontawesome.com/6febfcf18c.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
-    
+  <!-- Style link -->
+  <link rel="stylesheet" href="{{url_for('static', filename='styles/css_reset.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='/styles/style.css')}}">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
+  <title>Document</title>
+</head>
+<body>
 
-    <div class="site-container">
 
-      <div class="header-container">
+  <main> 
+    <!-- <img src="{{url_for('static', filename='images/ak2.jpg')}}" alt="" srcset=""> -->
+    <section id="image"> 
 
-        <header class="site-header">
 
-          <div class="title-area">
+    </section>
+    <section id="about">
 
-            <div class="avatar">
-              <img src="" alt="" >
-            </div>
+    </section>
+  </main>
 
-            <div class="title-container">
+  <section id="experience">
+    <h1>My Experience</h1>
+    <h3>Specialist in need. Generalist at heart.</h3>
 
-            </div>
-          </div>
+    <div class="tools">
 
-          <div class="title-contact"></div>
-        </header>
+      <div class="frontend">
+        <div class="wrap">
+          <!-- <i class="fas fa-laptop" id="icon"></i> -->
+          <h2>Front-end</h2>
+        </div>
+  
+        <p>html5</p>
+        <p>css3</p>
+        <p>javascript</p>
+        <p>boostrap</p>
       </div>
-
+  
+      <div class="backend">
+        <div class="wrap">
+          <!-- <i class="fas fa-server" id="icon"></i> -->
+          <h2>Back-end</h2>
+        </div>
+  
+        <p>Flask | Python</p>
+        <p>SQL</p>  
+        <p>Postgress</p> 
+        <p>Redis</p>
+        <p>Celery</p>  
+      </div>
+  
+      <div class="frontend">
+        <div class="wrap">
+          <!-- <i class="fas fa-laptop" id="icon"></i> -->
+          <h2>Tools</h2>
+        </div>
+  
+        <p>VScode</p>
+        <p>Docker</p>
+        <p>Github</p>
+        <p>Sublime</p>
+      </div>
+  
     </div>
 
+  </section>
+
+  <section id="work">
+    <h1>Past and current projects</h1>
+    <h3>Here is few of my projects</h3>
+
+    <div class="project">
+      <div class="project-description">
+        <h1>HOSPITAL MANAGEMENT APPLICATION </h1>
+
+        <div class="list-icon">
+          <i class="fas fa-desktop"></i>
+          <i class="fas fa-tablet-alt"></i>
+          <i class="fab fa-android"></i>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequatur repellat iste velit ratione itaque quam suscipit a dignissimos nobis.</p>
+
+        <a href="https://github.com/Makeem49/Hospital-Management-System">Visit project</a>
+      </div>
+
+      <div class="project-image">
+
+      </div>
+    </div>
+  </section>
+
+  <section id="cta">
+
+  </section>
+
+  <section id="footer">
+
+  </section>
 
 
 
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
